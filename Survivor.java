@@ -1,13 +1,21 @@
-/*
-Description: 
-You are in a room with a circle of 100 chairs. The chairs are numbered sequentially from 1 to 100.
-At some point in time, the person in chair #1 will be asked to leave. The person in chair #2 will be skipped, and the person in chair #3 will be asked to leave. This pattern of skipping one person and asking the next to leave will keep going around the circle until there is one person left… the survivor.
-Write a program to determine which chair the survivor is sitting in. Please send us the answer and your working code.
+/**
+ * Survivor
+ * 
+ * Description: 
+ * You are in a room with a circle of 100 chairs. The chairs are numbered sequentially from 1 to 100.
+ * At some point in time, the person in chair #1 will be asked to leave. The person in chair #2 will be skipped, and the person in chair #3 will be asked to leave. This pattern of skipping one person and asking the next to leave will keep going around the circle until there is one person left… the survivor.
+ * Write a program to determine which chair the survivor is sitting in. Please send us the answer and your working code.
+ * 
+ * Prints the answer to the survivor problem when there are 100 chairs
  */
 
 import java.util.ArrayList;
 
 public class Survivor {
+	/**
+	 * Tests the chair game when there are 100 chairs.
+	 * Prints the chair number when there are 100 chairs.
+	 */
 	public static void main(String[] args) {
 		System.out.println(getSurvivorNumber(100));
 	}
